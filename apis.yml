@@ -1,8 +1,27 @@
 aid: sciwind
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sciwind.png
 name: SCIWIND
-description: 'SCIWIND is a company surfaced as a portfolio company of idg-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Sciwind Biosciences (Hangzhou Sciwind Biosciences Co., Ltd.) is a commercial-stage
+  biopharmaceutical company headquartered in Hangzhou, China, with a US office in San Ramon,
+  California, focused on discovering, developing, and delivering innovative therapeutics for weight
+  management and metabolic disease. Its pipeline spans obesity, type 2 diabetes, and non-alcoholic
+  steatohepatitis (NASH), led by the GLP-1 receptor agonist Ecnoglutide (advancing through Phase III
+  trials). The company operates proprietary drug-discovery platforms including BiasVantage (biased
+  agonist discovery), OralVantage (oral peptide delivery), and HaleVantage (half-life extension),
+  with 14+ pipeline programs, 120+ researchers, and 110+ patents. Surfaced as a portfolio company of
+  IDG Capital and added to the API Evangelist network; enrichment found no public API or developer
+  platform surface.'
 url: https://raw.githubusercontent.com/api-evangelist/sciwind/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,28 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 tags:
 - Company
 - Healthcare
+- Biopharmaceutical
+- Biotechnology
+- Pharmaceuticals
+- Drug Discovery
+- Metabolic Disease
+- Weight Management
+common:
+- type: DomainSecurity
+  url: security/sciwind-domain-security.yml
+- type: Website
+  url: https://www.sciwindbio.com/
+- type: News
+  url: https://www.sciwindbio.com/portal/index/news/category_id/5.html
 apis: []
 maintainers:
 - FN: Kin Lane
