@@ -34,6 +34,9 @@ description: 'Sciwind Biosciences (Hangzhou Sciwind Biosciences Co., Ltd.) is a 
   IDG Capital and added to the API Evangelist network; enrichment found no public API or developer
   platform surface.'
 url: https://raw.githubusercontent.com/api-evangelist/sciwind/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Surfaced as a portfolio company of IDG Capital and added to the API Evangelist network; enrichment found no public API or developer platform surface."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
